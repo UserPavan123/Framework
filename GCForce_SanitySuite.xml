@@ -1,0 +1,82 @@
+<suite name="GCForce Suite">
+
+  
+<listeners>
+    <listener class-name="listeners.InitReports"/>
+    <listener class-name="listeners.RetryListener"/>
+    <listener class-name="listeners.DataTransformer"/>
+ </listeners>
+  
+
+<test name="MyTest1">
+    <classes>
+            <class name="GcForce.Create_Company"/>
+    </classes>
+</test>
+
+<test name="MyTest2">
+   <classes>
+           <class name="GcForce.Create_Contact"/>
+    </classes>
+</test>
+
+
+<test name="MyTest3">
+    <classes>
+           <class name="GcForce.Create_Opportunity"/>
+   </classes>
+</test>
+
+<!-- <test name="MyTest4"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_Create_Edit_Delete_Contact"/> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+
+
+<!-- <test name="MyTest5"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_Create_Edit_Delete_Opportunity"/> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+
+<!-- <test name="MyTest1"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_Create_Edit_Delete_Company"/> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+ 
+<!-- <test name="MyTest1"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_CreateCompany_AssociateComponents"/> -->
+<!--     </classes> -->
+<!-- </test>	 -->
+
+<!-- <test name="MyTest1"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_Delete_Company"/> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+
+<!-- <test name="MyTest1"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_Delete_Contact"/> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+
+<!-- <test name="MyTest1"> -->
+<!--     <classes> -->
+<!--             <class name="SalesForce.SF_Delete_Opportunity"/> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+
+
+</suite>
+
+
